@@ -21,7 +21,7 @@
         <developerConnection>scm:git:https://github.com/pengjinfei/ci.git</developerConnection>
         <url>scm:git:https://github.com/pengjinfei/ci.git</url>
         <connection>scm:git:https://github.com/pengjinfei/ci.git</connection>
-      <tag>testBranch</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
