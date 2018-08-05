@@ -20,7 +20,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/pengjinfei/ci.git</developerConnection>
         <url>scm:git:https://github.com/pengjinfei/ci.git</url>
-        <connection>scm:git:ssh://git@code.test.com.cn:3590/yourname/jdbc-utils.git</connection>
+        <connection>scm:git:https://github.com/pengjinfei/ci.git</connection>
       <tag>HEAD</tag>
   </scm>
 
