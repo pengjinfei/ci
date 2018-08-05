@@ -19,11 +19,9 @@
     </parent>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@code.test.com.cn:3590/yourname/jdbc-utils.git</developerConnection>
-        <url>scm:git:ssh://git@code.test.com.cn:3590/yourname/jdbc-utils.git</url>
+        <developerConnection>scm:git:https://github.com/pengjinfei/ci.git</developerConnection>
+        <url>scm:git:https://github.com/pengjinfei/ci.git</url>
         <connection>scm:git:ssh://git@code.test.com.cn:3590/yourname/jdbc-utils.git</connection>
-        <!-- 此git地址上生成tag标签名，在release:prepare时会提示输入，此处可以不用配置 -->
-        <tag>test</tag>
     </scm>
 
     <properties>
@@ -120,6 +118,11 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
